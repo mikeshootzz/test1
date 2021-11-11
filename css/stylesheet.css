@@ -1,0 +1,173 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Wird bei Copyright im Footer verwendet */
+#copyright {
+    float: right;
+}
+/* Wird beim Willkommenstext verwendet */
+#willkommen {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+/* Generelle Linkfarbe */
+a {
+    color: black;
+}
+/* links bei hover */
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+/* Wird oben bei der Navigation verwendet */
+#navigation {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    text-align: right;
+}
+/* Fusszeile */
+footer {
+    background-color: green;
+    color: white;
+    padding: 20px 50px;
+    
+}
+/* Links innerhalb des Footers */
+footer a {
+    color: white;
+}
+/* Links im footer mit Hover */
+footer a:hover {
+    color: white;
+}
+/* Das Logo und die Navigation wird hier bestummen */
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* Liste innerhalb der Navigation */
+nav li {
+    display: inline-block;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* Hintergrundbild */
+#headerbild {
+    background-image: url(../img/landschaft.jpg);
+    height: 250px;
+    text-align: center;
+    background-position: center;
+    padding-top: 150px;
+    display: block;
+}
+/* Padding um die Artikel */
+article {
+    padding: 70px 50px;
+}
+/* Links im Header */
+header a {
+    text-decoration: none;
+}
+/* Aktive Seiten färben */
+.active-page {
+    color: green;
+}
+/* Tabelleninhalte */
+th {
+    width: 10%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+/* Logo */
+#logo {
+    width: 100px;
+    height: 100px;
+}
+/* Label */
+label {
+    font-weight: bold;
+    display: inline-block;
+    width: 10%;
+    margin-top: 10px;
+}
+/* Die Eingabe Felder */
+.eingabe {
+    margin-top: 10px;
+    width: 300px;
+}
+/* Buttons */
+.button {
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    width: 150px;
+    
+}
+/* Import der Langar Schriftart */
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+/* Import der Jura Schriftart */
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+/* Schriftart Langar für Übertitel */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Langar', cursive;
+}
+
+/* Schriftart Jura für Fliesstext */
+p {
+    font-family: 'Jura';
+}
+/* Galerie */
+.galerie{
+    margin: 5px;
+    display: inline-block;
+    width: 24%;
+    margin-bottom: 50px;
+}
+/* Beschreibung der Bilder */
+.beschreibung {
+    padding: 15px;
+    text-align: center;
+}
+/* Divs */
+div {
+    display: block;
+}
+/* Bilder innerhalb der Galerie */
+.galerie img {
+    width: 100%;
+    height: auto;
+}
+/* Titel der Bilder */
+#bildtitel {
+    padding-top: 70px;
+}
+main {
+    padding: 70px 50px;
+}
